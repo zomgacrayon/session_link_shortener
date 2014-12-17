@@ -1,0 +1,89 @@
+=> [32m#<Sinatra::Request:0x007fdc5b60db70[0m
+ @env[32m=[0m
+  {[31m[1;31m"[0m[31mSERVER_SOFTWARE[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mthin 1.5.0 codename Knife[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mSERVER_NAME[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mlocalhost[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mrack.input[1;31m"[0m[31m[0m=>[32m#<Rack::Lint::InputWrapper:0x007fdc5b78de00[0m @input[32m=[0m[32m#<StringIO:0x007fdc59b4be40[0m[32m>[0m[32m>[0m,
+   [31m[1;31m"[0m[31mrack.version[1;31m"[0m[31m[0m=>[[1;34m1[0m, [1;34m0[0m],
+   [31m[1;31m"[0m[31mrack.errors[1;31m"[0m[31m[0m=>[32m#<Rack::Lint::ErrorWrapper:0x007fdc5b78dd88[0m @error[32m=[0m[32m#<IO:<STDERR>>[0m[32m>[0m,
+   [31m[1;31m"[0m[31mrack.multithread[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+   [31m[1;31m"[0m[31mrack.multiprocess[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+   [31m[1;31m"[0m[31mrack.run_once[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+   [31m[1;31m"[0m[31mREQUEST_METHOD[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mPOST[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mREQUEST_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m/signup[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mPATH_INFO[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m/signup[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mREQUEST_URI[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m/signup[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mHTTP_VERSION[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mHTTP/1.1[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mHTTP_HOST[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mlocalhost:9393[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mHTTP_CONNECTION[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mkeep-alive[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mHTTP_CACHE_CONTROL[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mmax-age=0[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mHTTP_ACCEPT[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtext/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mHTTP_ORIGIN[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://localhost:9393[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mHTTP_USER_AGENT[1;31m"[0m[31m[0m=>
+    [31m[1;31m"[0m[31mMozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mHTTP_REFERER[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://localhost:9393/[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mHTTP_ACCEPT_ENCODING[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mgzip,deflate[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mHTTP_ACCEPT_LANGUAGE[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31men-US,en;q=0.8[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mHTTP_COOKIE[1;31m"[0m[31m[0m=>
+    [31m[1;31m"[0m[31mrack.session=BAh7CEkiD3Nlc3Npb25faWQGOgZFVEkiRTIyZTBjOTQ2NzQxNTBkZmU0MTJi%0AYmZkNmMzM2U2Yzc3YjAzMDM0ODY3MDNkNWMyNDBkZThiODRlNzYwNWNhYTkG%0AOwBGSSIJY3NyZgY7AEZJIkU3OGViZTUxMzU4NzkzZGZhNTk0MzQ4NWM5NzEx%0AN2ViOWFlMDYxZjJmNjVkZWRlMDhlM2NmNTI5OGYwM2Y4NTY3BjsARkkiDXRy%0AYWNraW5nBjsARnsISSIUSFRUUF9VU0VSX0FHRU5UBjsAVEkiLWNlYWI5NWFm%0AYWMyYzZkZjc3ZWUyN2M2NDY4NmY3ZTIzZWQzNjUwZmIGOwBGSSIZSFRUUF9B%0AQ0NFUFRfRU5DT0RJTkcGOwBUSSItYTBiZjRhMzA2YzY5ZDg2NmNlNTBmNGIz%0ANGFkYjlmM2I1ODI1NDg3NwY7AEZJIhlIVFRQX0FDQ0VQVF9MQU5HVUFHRQY7%0AAFRJIi02NmVhZTk3MTQ5MjkzOGMyZGNjMmZiMWRkYzhkN2VjMzE5NjAzN2Rh%0ABjsARg%3D%3D%0A--831de367a3959ff69608a912f7e95b200d9e8493[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mCONTENT_LENGTH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m39[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mCONTENT_TYPE[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mapplication/x-www-form-urlencoded[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mGATEWAY_INTERFACE[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mCGI/1.2[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mSERVER_PORT[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m9393[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mQUERY_STRING[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mSERVER_PROTOCOL[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mHTTP/1.1[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mrack.url_scheme[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mSCRIPT_NAME[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mREMOTE_ADDR[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m127.0.0.1[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31masync.callback[1;31m"[0m[31m[0m=>[32m#<Method: Thin::Connection#post_process>[0m,
+   [31m[1;31m"[0m[31masync.close[1;31m"[0m[31m[0m=>[32m#<EventMachine::DefaultDeferrable:0x007fdc59b4b558[0m[32m>[0m,
+   [31m[1;31m"[0m[31msinatra.commonlogger[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+   [31m[1;31m"[0m[31mrack.request.form_input[1;31m"[0m[31m[0m=>
+    [32m#<Rack::Lint::InputWrapper:0x007fdc5b78de00[0m @input[32m=[0m[32m#<StringIO:0x007fdc59b4be40[0m[32m>[0m[32m>[0m,
+   [31m[1;31m"[0m[31mrack.request.form_hash[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31memail[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mcheryll@gmail.com[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mpassword[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m1234[1;31m"[0m[31m[0m},
+   [31m[1;31m"[0m[31mrack.request.form_vars[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31memail=cheryll%40gmail.com&password=1234[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mrack.logger[1;31m"[0m[31m[0m=>
+    [32m#<Logger:0x007fdc5b6146c8[0m
+     @default_formatter[32m=[0m[32m#<Logger::Formatter:0x007fdc5b6146a0[0m @datetime_format[32m=[0m[1;36mnil[0m[32m>[0m,
+     @formatter[32m=[0m[1;36mnil[0m,
+     @level[32m=[0m[1;34m1[0m,
+     @logdev[32m=[0m
+      [32m#<Logger::LogDevice:0x007fdc5b614650[0m
+       @dev[32m=[0m[32m#<Rack::Lint::ErrorWrapper:0x007fdc5b78dd88[0m @error[32m=[0m[32m#<IO:<STDERR>>[0m[32m>[0m,
+       @filename[32m=[0m[1;36mnil[0m,
+       @mutex[32m=[0m
+        [32m#<Logger::LogDevice::LogDeviceMutex:0x007fdc5b614628[0m
+         @mon_count[32m=[0m[1;34m0[0m,
+         @mon_mutex[32m=[0m[32m#<Mutex:0x007fdc5b6145d8[0m[32m>[0m,
+         @mon_owner[32m=[0m[1;36mnil[0m[32m>[0m,
+       @shift_age[32m=[0m[1;36mnil[0m,
+       @shift_size[32m=[0m[1;36mnil[0m[32m>[0m,
+     @progname[32m=[0m[1;36mnil[0m[32m>[0m,
+   [31m[1;31m"[0m[31mrack.session[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31msession_id[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m22e0c94674150dfe412bbfd6c33e6c77b0303486703d5c240de8b84e7605caa9[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mcsrf[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m78ebe51358793dfa5943485c97117eb9ae061f2f65dede08e3cf5298f03f8567[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mtracking[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mHTTP_USER_AGENT[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mceab95afac2c6df77ee27c64686f7e23ed3650fb[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mHTTP_ACCEPT_ENCODING[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31ma0bf4a306c69d866ce50f4b34adb9f3b58254877[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mHTTP_ACCEPT_LANGUAGE[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m66eae971492938c2dcc2fb1ddc8d7ec3196037da[1;31m"[0m[31m[0m}},
+   [31m[1;31m"[0m[31mrack.session.options[1;31m"[0m[31m[0m=>
+    {[33m:path[0m=>[31m[1;31m"[0m[31m/[1;31m"[0m[31m[0m,
+     [33m:domain[0m=>[1;36mnil[0m,
+     [33m:expire_after[0m=>[1;36mnil[0m,
+     [33m:secure[0m=>[1;36mfalse[0m,
+     [33m:httponly[0m=>[1;36mtrue[0m,
+     [33m:defer[0m=>[1;36mfalse[0m,
+     [33m:renew[0m=>[1;36mfalse[0m,
+     [33m:sidbits[0m=>[1;34m128[0m,
+     [33m:secure_random[0m=>[1;34;4mSecureRandom[0m,
+     [33m:secret[0m=>[31m[1;31m"[0m[31mthis is a secret shhhhh[1;31m"[0m[31m[0m,
+     [33m:coder[0m=>[32m#<Rack::Session::Cookie::Base64::Marshal:0x007fdc5b668b10[0m[32m>[0m},
+   [31m[1;31m"[0m[31mrack.request.cookie_hash[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31mrack.session[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mBAh7CEkiD3Nlc3Npb25faWQGOgZFVEkiRTIyZTBjOTQ2NzQxNTBkZmU0MTJi[1;35m\n[0m[31mYmZkNmMzM2U2Yzc3YjAzMDM0ODY3MDNkNWMyNDBkZThiODRlNzYwNWNhYTkG[1;35m\n[0m[31mOwBGSSIJY3NyZgY7AEZJIkU3OGViZTUxMzU4NzkzZGZhNTk0MzQ4NWM5NzEx[1;35m\n[0m[31mN2ViOWFlMDYxZjJmNjVkZWRlMDhlM2NmNTI5OGYwM2Y4NTY3BjsARkkiDXRy[1;35m\n[0m[31mYWNraW5nBjsARnsISSIUSFRUUF9VU0VSX0FHRU5UBjsAVEkiLWNlYWI5NWFm[1;35m\n[0m[31mYWMyYzZkZjc3ZWUyN2M2NDY4NmY3ZTIzZWQzNjUwZmIGOwBGSSIZSFRUUF9B[1;35m\n[0m[31mQ0NFUFRfRU5DT0RJTkcGOwBUSSItYTBiZjRhMzA2YzY5ZDg2NmNlNTBmNGIz[1;35m\n[0m[31mNGFkYjlmM2I1ODI1NDg3NwY7AEZJIhlIVFRQX0FDQ0VQVF9MQU5HVUFHRQY7[1;35m\n[0m[31mAFRJIi02NmVhZTk3MTQ5MjkzOGMyZGNjMmZiMWRkYzhkN2VjMzE5NjAzN2Rh[1;35m\n[0m[31mBjsARg==[1;35m\n[0m[31m--831de367a3959ff69608a912f7e95b200d9e8493[1;31m"[0m[31m[0m},
+   [31m[1;31m"[0m[31mrack.request.cookie_string[1;31m"[0m[31m[0m=>
+    [31m[1;31m"[0m[31mrack.session=BAh7CEkiD3Nlc3Npb25faWQGOgZFVEkiRTIyZTBjOTQ2NzQxNTBkZmU0MTJi%0AYmZkNmMzM2U2Yzc3YjAzMDM0ODY3MDNkNWMyNDBkZThiODRlNzYwNWNhYTkG%0AOwBGSSIJY3NyZgY7AEZJIkU3OGViZTUxMzU4NzkzZGZhNTk0MzQ4NWM5NzEx%0AN2ViOWFlMDYxZjJmNjVkZWRlMDhlM2NmNTI5OGYwM2Y4NTY3BjsARkkiDXRy%0AYWNraW5nBjsARnsISSIUSFRUUF9VU0VSX0FHRU5UBjsAVEkiLWNlYWI5NWFm%0AYWMyYzZkZjc3ZWUyN2M2NDY4NmY3ZTIzZWQzNjUwZmIGOwBGSSIZSFRUUF9B%0AQ0NFUFRfRU5DT0RJTkcGOwBUSSItYTBiZjRhMzA2YzY5ZDg2NmNlNTBmNGIz%0ANGFkYjlmM2I1ODI1NDg3NwY7AEZJIhlIVFRQX0FDQ0VQVF9MQU5HVUFHRQY7%0AAFRJIi02NmVhZTk3MTQ5MjkzOGMyZGNjMmZiMWRkYzhkN2VjMzE5NjAzN2Rh%0ABjsARg%3D%3D%0A--831de367a3959ff69608a912f7e95b200d9e8493[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mrack.session.unpacked_cookie_data[1;31m"[0m[31m[0m=>
+    {[31m[1;31m"[0m[31msession_id[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m22e0c94674150dfe412bbfd6c33e6c77b0303486703d5c240de8b84e7605caa9[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mcsrf[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m78ebe51358793dfa5943485c97117eb9ae061f2f65dede08e3cf5298f03f8567[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mtracking[1;31m"[0m[31m[0m=>
+      {[31m[1;31m"[0m[31mHTTP_USER_AGENT[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mceab95afac2c6df77ee27c64686f7e23ed3650fb[1;31m"[0m[31m[0m,
+       [31m[1;31m"[0m[31mHTTP_ACCEPT_ENCODING[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31ma0bf4a306c69d866ce50f4b34adb9f3b58254877[1;31m"[0m[31m[0m,
+       [31m[1;31m"[0m[31mHTTP_ACCEPT_LANGUAGE[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m66eae971492938c2dcc2fb1ddc8d7ec3196037da[1;31m"[0m[31m[0m}},
+   [31m[1;31m"[0m[31mrack.request.query_string[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mrack.request.query_hash[1;31m"[0m[31m[0m=>{}},
+ @params[32m=[0m{[31m[1;31m"[0m[31memail[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mcheryll@gmail.com[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mpassword[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m1234[1;31m"[0m[31m[0m}[32m>[0m
